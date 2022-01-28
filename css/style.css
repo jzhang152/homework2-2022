@@ -30,7 +30,7 @@ div{
 	min-height: 100px;
 	padding:20px;
 	border-style: solid;
-	border-color: #FFFFFF;
+	border-color: white;
 	border-width: 3px;
 }
 div.intro{
@@ -59,7 +59,7 @@ div.yellow{
 	border-left: 10px;
 	color: #000000;
 }
-h2.yellow{
+div.yellow h2{
 	text-shadow: 2px 4px #c7e2c7;
 }
 div.green{
@@ -69,7 +69,7 @@ div.green{
 	border-bottom: 3px;
 	border-right: 10px;
 }
-span{
+h2 span{
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-shadow: none;
@@ -82,5 +82,6 @@ footer p{
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	padding-left: 0px;
 	text-align: center;
 }
